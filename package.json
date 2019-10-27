@@ -6,10 +6,10 @@
   "scripts": {
     "start": "node list/index.js",
     "lint": "eslint '**/*.js'",
-    "test": "node_modules/.bin/jest --coverage --verbose",
-    "test-watch": "node_modules/.bin/jest --watchAll --verbose --coverage",
-    "jsdoc": "node_modules/.bin/jsdoc -c ./docs/config/jsdoc.config.json",
-    "watch": "node_modules/.bin/jest --watchAll --coverage --verbose"
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
+    "watch": "jest --watchAll --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,11 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.20.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
     "jest": "^24.9.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
