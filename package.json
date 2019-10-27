@@ -1,0 +1,30 @@
+{
+  "name": "lab10-graphql",
+  "version": "1.0.0",
+  "description": "adding graphql support to a functioning ReST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node list/index.js",
+    "lint": "eslint '**/*.js'",
+    "test": "node_modules/.bin/jest --coverage --verbose",
+    "test-watch": "node_modules/.bin/jest --watchAll --verbose --coverage",
+    "jsdoc": "node_modules/.bin/jsdoc -c ./docs/config/jsdoc.config.json",
+    "watch": "node_modules/.bin/jest --watchAll --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alwynblake/lab10-graphql.git"
+  },
+  "author": "Alistair Blake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alwynblake/lab10-graphql/issues"
+  },
+  "homepage": "https://github.com/Alwynblake/lab10-graphql#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.20.1",
+    "jest": "^24.9.0"
+  }
+}
